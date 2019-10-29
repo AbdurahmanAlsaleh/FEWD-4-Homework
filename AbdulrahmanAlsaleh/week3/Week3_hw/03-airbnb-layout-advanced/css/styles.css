@@ -1,0 +1,234 @@
+body {
+  background-color: rgb(230, 230, 230);
+  font-family: 'Nunito', Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+p{
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+h, h1, ui ,li{
+  padding: 0;
+  margin: 100;
+}
+.top-logo {
+  display: flex;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  height: 25;
+  top: 0;
+ 
+
+}
+
+
+.main-1{
+  color: #fff;
+  text-shadow: 0 0 6px #615e61;
+  padding-top: 35;
+  margin-top: 35;
+
+}
+
+
+.navigation{
+  display: flex;
+  justify-items: stretch;
+}
+
+.logo-img{
+  
+  width: 100px;
+	height: 30px;
+	padding: 5px 5px;
+	float: left;
+	border-top: none;
+	border-bottom-color: transparent;
+}
+
+header{
+  background-image: url("../img/melbourne.jpg");
+  /* filter: blur(5px); */
+  height: 450px;
+
+}
+
+img:last-child { 
+  margin-right: 0; 
+}
+img img{
+  width: 301px;
+  height: 206px;
+}
+
+
+#btn-1{
+    width: 225px;
+		height: 52px;
+		border: 1px solid #FF5A5F;
+		margin: 20px 0 3px 0;
+		background-color: #FF5A5F;
+		color: #fff;
+		font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+#btn-2{
+  width: 225px;
+  height: 52px;
+  border: 1px solid #FF5A5F;
+  margin: 20px 0 30px 0;
+  background-color: #FF5A5F;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+
+.main-2{
+  background-color: rgb(240, 240, 240);
+  position: relative;
+  text-align: center;
+  margin: 20px 0 15px 10px;
+
+
+}
+
+.img {
+  display: flex;
+  height: 400px;
+  width: auto;
+  position: relative;
+}
+
+#img1 {
+  
+  padding-left: 20px;
+  margin: 20;
+  margin-left: 0;
+  left: 5;
+  top: 0;
+}
+
+#img2 {
+  
+  padding-left: 50px;
+  margin: 20;
+  margin-left: 0;
+  left: 5;
+  top: 0;
+
+}
+
+#img3 {
+
+  padding-left: 50px;
+  margin: 20;
+  margin-left: 0;
+  left: 5;
+  top: 0;
+}
+
+
+.text-over-1 {
+  z-index: 100;
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 6px #615e61;
+  font-size: 20px;
+  font-weight: bold;
+  left: 145px;
+  top: 90px;
+}
+.text-over-2 {
+  z-index: 100;
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 6px #615e61;
+  font-size: 18px;
+  font-weight: bold;
+  left: 100px;
+  top: 115px;
+}
+
+
+.text-over-3 {
+  z-index: 100;
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 6px #615e61;
+  font-size: 20px;
+  font-weight: bold;
+  left: 565px;
+  top: 90px;
+}
+.text-over-4 {
+  z-index: 100;
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 6px #615e61;
+  font-size: 18px;
+  font-weight: bold;
+  left: 465px;
+  top: 110px;
+}
+
+
+.text-over-5 {
+  z-index: 100;
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 6px #615e61;
+  font-size: 20px;
+  font-weight: bold;
+  left: 900px;
+  top: 90px;
+}
+
+.text-over-6 {
+  z-index: 100;
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 6px #615e61;
+  font-size: 18px;
+  font-weight: bold;
+  left: 890px;
+  top: 110px;
+}
+
+.Middle{
+  display: inline-flex;
+  top: 10%;
+
+}
+.left{
+  width: 50%;
+  padding-left: 0px;
+  padding-top: 15px;
+
+}
+.right{
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.footer{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color:#2b2d2e;
+  background-image:url('https://a0.muscache.com/airbnb/static/footer/background-317dd7c2cb678ddbdb0a983d511cb9a0.png');
+}
